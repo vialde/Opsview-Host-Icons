@@ -1,0 +1,40 @@
+-{ Unofficial Opsview Host Icons }-
+
+Host Icons are configurable as part of Opsview host configuration. They are used to visually represent Hosts in Opsview's status views
+
+These icons are provided without warrantee or restriction. Copyright for product logos remain with the respective vendors. If you are the trademark owner please contact me using the details below.
+
+These files are not officially sanctioned by Opsera Limited for use with Opsview software.
+
+
+-{ Contact }-
+
+Email: hosticons@jamespeel.com
+
+
+-{ What you get }-
+
+./logos			- Logos representing software and hardware products / manufacturers
+./symbols		- Symbols for representing servers, switches, routers, etc
+
+
+-{ Adding Host Icons to your Opsview system }-
+
+Opsview comes with a tool for managing Host Icons. This tool will convert GIF format files into the relevant formats for use with Opsview and it will register the icon in Opsview's configuration database. 
+This tool is located in the '/usr/local/nagios/bin' directory.
+
+> Adding an icon
+
+./hosticon_admin add 'LOGO - <name of icon>' <path>/<icon name>.gif
+
+eg: ./hosticon_admin add 'Logo - ACME OS' /tmp/acme.gif
+
+
+> Displaying list of installed icons
+
+./hosticon_admin list
+
+
+> Removing a previously installed icon
+
+./hosticon_admin remove <name of icon>
