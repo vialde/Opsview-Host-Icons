@@ -42,5 +42,9 @@ This tool is located in the '/usr/local/nagios/bin' directory.
     ./hosticon_admin remove <name of icon>
 
 
+[ USING BULK UPDATE SCRIPT ]
+
+Karsten Muller (Karsten.Mueller@linux-solution-park.de) has kindly provided a bulk update script that adds the complete set of icons to your Opsview system. This script is found at './add-all-icons.sh'
+
 ---
 EOF
