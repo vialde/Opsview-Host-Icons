@@ -44,7 +44,7 @@ This tool is located in the '/usr/local/nagios/bin' directory.
 
 [ USING BULK UPDATE SCRIPT ]
 
-Karsten Muller (Karsten.Mueller@linux-solution-park.de) has kindly provided a bulk update script that adds the complete set of icons to your Opsview system. This script is found at './add-all-icons.sh'
+Karsten Muller (k.mueller@metaways.de) has kindly provided a bulk update script that adds the complete set of icons to your Opsview system. This script is found at './add-all-icons.sh'
 
 ---
 EOF
