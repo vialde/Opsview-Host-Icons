@@ -27,9 +27,9 @@ This tool is located in the '/usr/local/nagios/bin' directory.
 
     ADDING AN ICON:
     
-    ./hosticon_admin add 'LOGO - <name of icon>' <path>/<icon name>.gif
+    ./hosticon_admin add 'LOGO - <name of icon>' <path>/<icon name>.png
     
-    eg: ./hosticon_admin add 'Logo - ACME OS' /tmp/acme.gif
+    eg: ./hosticon_admin add 'Logo - ACME OS' /tmp/acme.png
     
     
     DISPLAYING LIST OF INSTALLED ICONS:
